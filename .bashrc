@@ -93,9 +93,7 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 alias c='clear'
-alias lab='cd /home/teadi'
 alias lg='lazygit'
-alias proj='cd /home/teadi/Projects'
 
 
 # Add an "alert" alias for long running commands.  Use like so:
