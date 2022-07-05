@@ -11,3 +11,10 @@ echo 'Installing Lazygit'
 add-apt-repository ppa:lazygit-team/daily
 apt-get update
 apt-get install lazygit
+
+echo 'Installing tt'
+sudo curl -L https://github.com/lemnos/tt/releases/download/v0.4.2/tt-linux -o /usr/local/bin/tt && sudo chmod +x /usr/local/bin/tt
+
+sudo curl -o /usr/share/man/man1/tt.1.gz -L https://github.com/lemnos/tt/releases/download/v0.4.2/tt.1.gz
+
+echo 'Dev'
