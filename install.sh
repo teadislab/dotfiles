@@ -19,3 +19,9 @@ sudo curl -o /usr/share/man/man1/tt.1.gz -L https://github.com/lemnos/tt/release
 
 echo 'Installing Atuin'
 bash <(curl https://raw.githubusercontent.com/ellie/atuin/main/install.sh)
+
+echo 'Installing Dev-stuff'
+echo 'creating Dev dir'
+mkdir dev
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+
